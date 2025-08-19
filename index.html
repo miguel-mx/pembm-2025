@@ -1,0 +1,795 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/vnd.microsoft.icon" />
+    <title>Escuela Michoacana de Biología Matemática</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubot+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/embm.css">
+</head>
+<body>
+
+
+<nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <a class="navbar-brand" href="#">
+                <img src="img/nav-unam.png" alt="UNAM" >
+            </a>
+            <a class="navbar-brand" href="#">
+                <img src="img/nav-ccm.png" alt="CCM">
+            </a>
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+
+<div class="hero-image">
+    <picture>
+        <!-- Mobile image: shown below 768px -->
+        <source srcset="img/banner-sm.png" media="(max-width: 767px)">
+
+        <!-- Desktop image: shown at 768px and up -->
+        <img src="img/banner.png" alt="Hero banner">
+    </picture>
+</div>
+
+
+<section id="infographic">
+    <div class="container">
+        <div class="d-flex flex-column flex-md-row justify-content-evenly">
+            <div class="d-flex flex-column mb-4 mb-sm-0">
+                <div class="info-icon">
+                    <img src="img/i-limite.png" alt="Limite">
+                </div>
+                <div class="info-graph-title">Límite 3 de Octubre</div>
+                <div class="info-graph-subtitle">Registro de Asistencia</div>
+            </div>
+            <div class="d-flex flex-column mb-4 mb-sm-0">
+                <div class="info-icon">
+                    <img src="img/i-aceptacion.png" alt="Lugar">
+                </div>
+                <div class="info-graph-title">3 noviembre</div>
+                <div class="info-graph-subtitle">Notificación aceptación</div>
+            </div>
+            <div class="d-flex flex-column mb-4 mb-sm-0">
+                <div class="info-icon">
+                    <img src="img/i-beca.png" alt="inscripcion">
+                </div>
+                <div class="info-graph-title">Cupo limitado</div>
+                <div class="info-graph-subtitle">Beca hospedaje, y alimentación</div>
+            </div>
+            <div class="d-flex flex-column mb-4 mb-sm-0">
+                <div class="info-icon">
+                    <img src="img/i-lugar.png" alt="Lugar">
+                </div>
+                <div class="info-graph-title">CCM UNAM</div>
+                <div class="info-graph-subtitle">Centro de Ciencias Matemáticas</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="intro">
+    <div class="container pb-5 mt-5">
+
+        <h1>Primera Escuela Michoacana de Biología Matemática Modelación y dinámicas de fenómenos biológicos</h1>
+
+        <div class="d-flex flex-column justify-content-center">
+            <div class="content">
+                La escuela está dirigida a estudiantes de licenciatura de cuarto semestre en adelante y de maestría
+                de universidades mexicanas, interesados en la intersección entre las matemáticas aplicadas, modelación
+                matemática, computación, epidemiología, ecología, biología, bioinformática, estadística, probabilidad,
+                ciencias ambientales y machine learning.
+            </div>
+            <div class="content">
+                A través de cursos breves, seminarios temáticos, diálogos de investigación, y mentorías, los
+                participantes abordarán problemas biológicos reales y desarrollarán herramientas para el análisis
+                y modelado de fenómenos complejos, guiados por especialistas nacionales e internacionales
+                comprometidos con la formación de jóvenes investigadores.
+            </div>
+            <div class="content">
+                Uno de los objetivos principales de esta iniciativa es inspirar a los estudiantes a continuar su
+                formación en programas de posgrado en biología matemática y campos afines en México o en el extranjero,
+                y fomentar la colaboración interdisciplinaria entre instituciones. Se incentivará el desarrollo
+                de ideas de investigación que puedan convertirse en proyectos de tesis o disertación, idealmente
+                bajo la comentaría de los instructores participantes, promoviendo colaboraciones de largo plazo.
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="cursos">
+
+    <div class="container">
+        <div class="courses-container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h1 class="mb-4">Instructores Nacionales</h1>
+                    <div class="course">
+                        <div class="professor d-inline">Cisteil Xinum Pérez Hernández</div><div class="university">Facultad de Biología, UMSNH</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Luis Felipe Mendoza Cuenca</div><div class="university">Facultad de Biología, UMSNH</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Nelly Selém Mojica</div><div class="university">Centro de Ciencias Matemáticas, UNAM</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Imelda Trejo Lorenzo</div><div class="university">Centro de Ciencias Matemáticas, UNAM</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Adriana Haydeé Contreras Peruyero</div><div class="university">Centro de Ciencias Matemáticas, UNAM</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Eugenio Balanzario Gutiérrez</div><div class="university">Centro de Ciencias Matemáticas, UNAM</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Eugenio Martín Azpeitia Espinosa</div><div class="university">Centro de Ciencias Matemáticas, UNAM</div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <h1 class="mb-4">Instructores Internacionales</h1>
+
+                    <div class="course">
+                        <div class="professor d-inline">Rocío Marilyn Caja Rivera</div><div class="university">St. Jude Children’s Research Hospital, USA</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Gerardo Chowell-Puente</div><div class="university">Georgia State University, USA</div>
+                    </div>
+                    <div class="course">
+                        <div class="professor d-inline">Nicolas Hengartner</div><div class="university">Los Alamos National Laboratory, USA</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="sede">
+    <div class="container">
+        <h1>Sede</h1>
+        <div class="row">
+            <div class="col-12 col-md-6 p-3">
+                <img class="img-fluid" src="img/ccm-unam.png" alt="Foto edificio">
+            </div>
+            <div class="col-12 col-md-6 p-3 d-none d-md-block">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3757.543486516435!2d-101.2310395884714!3d19.646805433727405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0c5fca4d81a3%3A0x594e2c3b775adef5!2sCentro%20de%20Ciencias%20Matem%C3%A1ticas%20UNAM%20(CCM)!5e0!3m2!1sen!2smx!4v1755200930949!5m2!1sen!2smx" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="fw-bold"><i class="bi bi-geo-alt-fill"></i> Centro de Ciencias Matemáticas - UNAM Campus Morelia</div>
+    </div>
+</section>
+
+<section id="schedule">
+    <div class="container">
+        <h1 class="mb-5">Cursos</h1>
+
+        <!-- C1 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Modelación matemática y dinámica de fenómenos biológicos</h2>
+            <div class="instructor-line">
+                <span class="professor">Imelda Trejo Lorenzo</span><span class="university ms-2">Centro de Ciencias Matemáticas, UNAM, MX</span>
+            </div>
+            <div class="instructor-line mt-1">
+                <span class="professor">Rocío Marilyn Caja Rivera</span><span class="university ms-2">Coordinadora e investigadora en St. Jude Children’s Research Hospital, USA</span>
+            </div>
+        </div>
+
+        <!-- C2 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Procesos de Markov a tiempo continuo</h2>
+            <div class="instructor-line">
+                <span class="professor">Eugenio Pacelli Balanzario Gutiérrez</span><span class="university ms-2">Centro de Ciencias Matemáticas, UNAM Campus Morelia</span>
+            </div>
+        </div>
+
+        <!-- C3 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Estadística e Inferencia Bayesiana Aplicada al Análisis de Datos</h2>
+            <div class="instructor-line">
+                <span class="professor">Nicolas (Nick) Hengartner</span><span class="university ms-2">Theoretical Biology and Biophysics Group, Los Alamos National Laboratory, Los Alamos, New Mexico, USA</span>
+            </div>
+        </div>
+
+        <!-- C4 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Identificabilidad estructural y práctica de parámetros</h2>
+            <div class="instructor-line">
+                <span class="professor">Gerardo Chowell-Puente</span><span class="university ms-2">School of Public Health, Georgia State University, Atlanta, Georgia, USA</span>
+            </div>
+        </div>
+
+        <!-- C5 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Niveles biológicos de organización, biodiversidad y ecología de la conducta</h2>
+            <div class="instructor-line">
+                <span class="professor">Cisteil Xinum Pérez Hernández</span> y
+                <span class="professor">Luis Felipe Mendoza Cuenca</span><span class="university ms-2">Laboratorio de Ecología de la Conducta, Facultad de Biología, Universidad Michoacana de San Nicolás de Hidalgo, Morelia, Michoacán, México</span>
+            </div>
+        </div>
+
+        <!-- C6 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Modelos booleanos para el estudio de procesos biológicos</h2>
+            <div class="instructor-line">
+                <span class="professor">Eugenio Azpeitia Espinosa</span><span class="university ms-2">Centro de Ciencias Matemáticas, UNAM Campus Morelia</span>
+            </div>
+        </div>
+
+        <!-- C7 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Clustering y aprendizaje no supervisado en datos biológicos</h2>
+            <div class="instructor-line">
+                <span class="professor">Nelly Selém Mojica</span> y
+                <span class="professor">Haydee Contreras Peruyero</span><span class="university ms-2">Centro de Ciencias Matemáticas, UNAM Campus Morelia</span>
+            </div>
+        </div>
+
+        <h1 class="my-5 pt-5 pb-3">Lista de Pláticas Temáticas </h1>
+
+        <!-- P1 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">El papel del canto y la coloración del plumaje en la divergencia genética y formación de nuevas especies de aves</h2>
+            <div class="instructor-line">
+                <span class="professor">Clementina González Zaragoza</span><span class="university ms-2">Instituto de Investigaciones sobre los Recursos Naturales, Universidad Michoacana de San Nicolás de Hidalgo.</span>
+            </div>
+        </div>
+
+        <!-- P2 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">El costo humano de retrasar intervenciones para reducir la obesidad: un estudio de modelación utilizando impuestos en México.</h2>
+            <div class="instructor-line">
+                <span class="professor">Martha Carnalla Cortés</span><span class="university ms-2">Centro de Investigación en Salud Poblacional, Instituto Nacional de Salud Pública.</span>
+            </div>
+        </div>
+
+        <!-- P3 -->
+        <div class="course">
+            <h2 class="h3 course-title mb-2">Virtudes y limitaciones de los campos vectoriales para la modelación</h2>
+            <div class="instructor-line">
+                <span class="professor">Jesús Muciño Raymundo</span><span class="university ms-2">Centro de Ciencias Matemáticas UNAM</span>
+            </div>
+        </div>
+
+
+
+        <!-- <h1 class="mt-5">Programa</h1>
+
+         <ul class="nav nav-tabs mt-5">
+             <li class="nav-item">
+                 <a class="nav-link active" id="tab-0" data-bs-toggle="tab" href="#tabpanel-0" role="tab" aria-controls="tabpanel-0" aria-selected="true">
+                     <div class="d-block d-sm-none">Lun</div>
+                     <div class="d-none d-sm-block">Lunes</div>
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" id="tab-1" data-bs-toggle="tab" href="#tabpanel-1" role="tab" aria-controls="tabpanel-1" aria-selected="false">
+                     <div class="d-block d-sm-none">Mar</div>
+                     <div class="d-none d-sm-block">Martes</div>
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" id="tab-2" data-bs-toggle="tab" href="#tabpanel-2" role="tab" aria-controls="tabpanel-2" aria-selected="false">
+                     <div class="d-block d-sm-none">Mie</div>
+                     <div class="d-none d-sm-block">Miércoles</div>
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" id="tab-3" data-bs-toggle="tab" href="#tabpanel-3" role="tab" aria-controls="tabpanel-3" aria-selected="false">
+                     <div class="d-block d-sm-none">Jue</div>
+                     <div class="d-none d-sm-block">Jueves</div>
+                 </a>
+             </li>
+             <li class="nav-item">
+                 <a class="nav-link" id="tab-4" data-bs-toggle="tab" href="#tabpanel-4" role="tab" aria-controls="tabpanel-4" aria-selected="false">
+                     <div class="d-block d-sm-none">Vie</div>
+                     <div class="d-none d-sm-block">Viernes</div>
+                 </a>
+             </li>
+         </ul>
+         <div class="tab-content pt-2" id="tab-content">
+             <div class="tab-pane active" id="tabpanel-0" role="tabpanel" aria-labelledby="tab-0">
+                 <div class="schedule-day d-flex flex-column">
+                     <div class="schedule-event d-flex flex-row ">
+                         <div class="schedule-time">09:15 - 09:30</div>
+                         <div class="schedule-talk schedule-magenta">
+                             <div class="schedule-title">Bienvenida</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">09:30 - 10:30</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Curso 1</div>
+                             <div class="schedule-professor">Porfirio Leandro León Álvarez</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:30 - 10:45</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 1</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:45 - 11:05</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Café</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">11:05 - 12:05</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 1</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:05 - 12:20</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 2</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:20 - 12:40</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:40 - 13:40</div>
+                         <div class="schedule-talk schedule-red">
+                             <div class="schedule-title">Grupos, gráficas y caminatas aleatorias</div>
+                             <div class="schedule-professor">Saraí Hernández Torres</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">14:00 - 15:00</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Comida</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">15:15 - 16:15</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Curso 2</div>
+                             <div class="schedule-professor">Sandy Guadalupe Aguilar Rosas</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:15 - 16:30</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 3</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:30 - 16:45</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:45 - 17:45</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 2</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">17:45 - 18:00</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 4</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="tab-pane" id="tabpanel-1" role="tabpanel" aria-labelledby="tab-1">
+                 <div class="schedule-day d-flex flex-column">
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">09:30 - 10:30</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Curso 2</div>
+                             <div class="schedule-professor">Sandy Guadalupe Aguilar Rosas</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:30 - 10:45</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 5</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:45 - 11:05</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Café</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">11:05 - 12:05</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 2</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:05 - 12:20</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 6</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:20 - 12:40</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:40 - 13:40</div>
+                         <div class="schedule-talk schedule-red">
+                             <div class="schedule-title">Noé Bárcenas</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">14:00 - 15:00</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Comida</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">15:15 - 16:15</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Curso 1</div>
+                             <div class="schedule-professor">Porfirio Leandro León Álvarez</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:15 - 16:30</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 7</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:30 - 16:45</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:45 - 17:45</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 1</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">17:45 - 18:00</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 8</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="tab-pane" id="tabpanel-2" role="tabpanel" aria-labelledby="tab-2">
+                 <div class="schedule-day d-flex flex-column">
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">09:30 - 10:30</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Curso 1</div>
+                             <div class="schedule-professor">Porfirio Leandro León Álvarez</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:30 - 10:45</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 9</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:45 - 11:05</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Café</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">11:05 - 12:05</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 1</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:05 - 12:20</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 10</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:20 - 12:40</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:40 - 13:40</div>
+                         <div class="schedule-talk schedule-red">
+                             <div class="schedule-title">Diana Vizcaíno</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">14:00 - 15:00</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Comida</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">15:15 - 16:15</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Curso 2</div>
+                             <div class="schedule-professor">Sandy Guadalupe Aguilar Rosas</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:15 - 16:30</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 11</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:30 - 16:45</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:45 - 17:45</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 2</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">17:45 - 18:00</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 12</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="tab-pane" id="tabpanel-3" role="tabpanel" aria-labelledby="tab-3">
+                 <div class="schedule-day d-flex flex-column">
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">09:30 - 10:30</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Curso 2</div>
+                             <div class="schedule-professor">Sandy Guadalupe Aguilar Rosas</div>
+
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:30 - 10:45</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 13</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">10:45 - 11:05</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Café</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">11:05 - 12:05</div>
+                         <div class="schedule-talk schedule-blue">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 2</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:05 - 12:20</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 14</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:20 - 12:40</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">12:40 - 13:40</div>
+                         <div class="schedule-talk schedule-red">
+                             <div class="schedule-title">Adolfo Guillot</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">14:00 - 15:00</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Comida</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">15:15 - 16:15</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Curso 1</div>
+                             <div class="schedule-professor">Porfirio Leandro León Álvarez</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:15 - 16:30</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 15</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:30 - 16:45</div>
+                         <div class="schedule-talk schedule-yellow">
+                             <div class="schedule-title">Descanso</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">16:45 - 17:45</div>
+                         <div class="schedule-talk schedule-green">
+                             <div class="schedule-title">Sesión de ejercicios - Curso 1</div>
+                         </div>
+                     </div>
+                     <div class="schedule-event d-flex flex-row">
+                         <div class="schedule-time">17:45 - 18:00</div>
+                         <div class="schedule-talk schedule-grey">
+                             <div class="schedule-title">Plática corta 16</div>
+                         </div>
+                     </div>
+                 </div>
+             </div>
+             <div class="tab-pane" id="tabpanel-4" role="tabpanel" aria-labelledby="tab-4">
+                 <div class="schedule-day d-flex flex-row">
+                     <div class="schedule-time">09:30 - 10:45</div>
+                     <div class="schedule-talk schedule-magenta">
+                         <div class="schedule-title">Actividad informativa de posgrados de TGG</div>
+                     </div>
+                 </div>
+                 <div class="schedule-event d-flex flex-row">
+                     <div class="schedule-time">10:45 - 11:05</div>
+                     <div class="schedule-talk schedule-yellow">
+                         <div class="schedule-title">Café</div>
+                     </div>
+                 </div>
+                 <div class="schedule-event d-flex flex-row">
+                     <div class="schedule-time">11:05 - 13:40</div>
+                     <div class="schedule-talk schedule-magenta">
+                         <div class="schedule-title">Mesa Redonda</div>
+                     </div>
+                 </div>
+                 <div class="schedule-event d-flex flex-row">
+                     <div class="schedule-time">14:00 - 15:00</div>
+                     <div class="schedule-talk schedule-yellow">
+                         <div class="schedule-title">Comida</div>
+                     </div>
+                 </div>
+             </div>
+         </div>-->
+    </div>
+</section>
+
+<div class="registro p-5">
+    <div class="display-6 text-center p-sm-5">
+        ¡Acompáñanos en Morelia y forma parte de esta emocionante oportunidad para crecer, conectar, y descubrir cómo las matemáticas pueden impulsar la innovación en la ciencia y la sociedad!
+    </div>
+</div>
+
+<section id="comites">
+    <div class="container">
+        <h1 class="mb-4">Comité Organizador</h1>
+
+        <div class="mb-5">
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Imelda Trejo Lorenzo</div><div class="organizador-adscripcion">Centro de Ciencias Matemáticas, UNAM</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Rocío Marilyn Caja Rivera</div><div class="organizador-adscripcion">St. Jude Children’s Research Hospital, USA</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">                <div class="organizador">Nicolas Hengartner</div><div class="organizador-adscripcion">Los Alamos National Laboratory, USA</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Carmen Molina-París</div><div class="organizador-adscripcion">Los Alamos National Laboratory, USA</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Gerardo Chowell-Puente</div><div class="organizador-adscripcion">Georgia State University, USA</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Lilia Leticia Ramírez Ramírez</div><div class="organizador-adscripcion">CIMAT</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Mayra Núñez López</div><div class="organizador-adscripcion">ITAM</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Martha Carnalla Cortés</div><div class="organizador-adscripcion">Instituto Nacional de Salud Pública</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Eugenio Balanzario Gutiérrez</div><div class="organizador-adscripcion">Centro de Ciencias Matemáticas, UNAM</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Nelly Selém Mojica</div><div class="organizador-adscripcion">Centro de Ciencias Matemáticas, UNAM</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Martha Carnalla Cortés</div><div class="organizador-adscripcion">Instituto Nacional de Salud Pública</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Andrei Alain González Galeano</div><div class="organizador-adscripcion">Centro de Ciencias Matemáticas, UNAM</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Naila Itzel Angelina Centeno</div><div class="organizador-adscripcion">Centro de Ciencias Matemáticas, UNAM</div>
+            </div>
+            <div class="d-flex flex-column flex-md-row mb-2">
+                <div class="organizador">Jorge X. Velasco Hernández</div><div class="organizador-adscripcion">Instituto de Matemáticas, UNAM Juriquilla</div>
+            </div>
+        </div>
+
+        <h1 class="my-5 text-center">Contacto</h1>
+        <div class="d-flex flex-column flex-sm-row justify-content-evenly">
+            <div class="d-flex flex-column">
+                <div class="contacto">Imelda Trejo Lorenzo</div>
+                <div class="contacto-email">imelda<i class="bi bi-at"></i>matmor.unam.mx</div>
+            </div>
+            <div class="d-flex flex-column mt-3 mt-md-0">
+                <div class="contacto">Eugenio Balanzario Gutierrez</div>
+                <div class="contacto-email">euba<i class="bi bi-at"></i>matmor.unam.mx</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="footer">
+    <div class="container">
+        <div class="d-flex flex-column justify-content-center flex-md-row justify-content-md-around">
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-unam.png" alt="Logo UNAM"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-ccm.png" alt="Logo CCM"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-smb.png" alt="Logo SMB"></div>
+            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-icti.png" alt="Logo Facultad Ciencias"></div>
+        </div>
+        <hr class="white">
+        <div class="copyright text-center">Universidad Nacional Autónoma de México, Centro de Ciencias Matemáticas, Campus Morelia, Michoacán. todos los derechos reservados 2025</div>
+    </div>
+</section>
+
+
+<script>
+    MathJax = {
+        tex: {
+            inlineMath: [['$', '$'], ['\\(', '\\)']]
+        }
+    };
+</script>
+<script id="MathJax-script" async
+        src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js">
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const days = ['tab-0', 'tab-1', 'tab-2', 'tab-3', 'tab-4'];
+        const today = new Date().getDay();
+
+        const dayIndex = (today + 6) % 7;
+
+        if (dayIndex >= 0 && dayIndex < days.length) {
+            const activeTab = document.getElementById(days[dayIndex]);
+            const activePanelId = activeTab.getAttribute('href').substring(1);
+
+            document.querySelectorAll('.nav-link').forEach(tab => tab.classList.remove('active'));
+            document.querySelectorAll('.tab-pane').forEach(panel => panel.classList.remove('show', 'active'));
+
+            activeTab.classList.add('active');
+
+            const activePanel = document.getElementById(activePanelId);
+            activePanel.classList.add('show', 'active');
+        }
+    });
+</script>
+</body>
+</html>
