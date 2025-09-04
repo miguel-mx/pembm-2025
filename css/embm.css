@@ -208,6 +208,11 @@ body, html {
 
 .course {
     margin-bottom: 24px;
+    padding: 24px;
+}
+
+.course:hover {
+    background-color: #333333;
 }
 
 .course-title {
