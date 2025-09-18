@@ -382,6 +382,10 @@ body, html {
     color: #A6CB36;
 }
 
+.gray {
+    color: gray;
+}
+
 .white {
     color: white;
 }
