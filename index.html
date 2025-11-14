@@ -41,10 +41,10 @@
 <div class="hero-image">
     <picture>
         <!-- Mobile image: shown below 768px -->
-        <source srcset="img/banner-sm.png" media="(max-width: 767px)">
+        <source srcset="img/banner-sm.jpg" media="(max-width: 767px)">
 
         <!-- Desktop image: shown at 768px and up -->
-        <img src="img/banner.png" alt="Hero banner">
+        <img src="img/banner.jpg" alt="Hero banner">
     </picture>
 </div>
 
@@ -200,7 +200,7 @@
                         <div class="d-flex flex-column">
                             <div class="professor">José Antonio</div>
                             <div class="family-name">Sánchez Villanueva</div>
-                            <div class="university">Universidad Autónoma del Estado de México</div>
+                            <div class="university">Centro de Ciencias Matemáticas</div>
                         </div>
                     </div>
                 </div>
@@ -263,6 +263,14 @@
                             <div class="professor">Clementina</div>
                             <div class="family-name">Gonzalez Zaragoza</div>
                             <div class="university">Instituto de Investigaciones sobre los Recursos Naturales, Universidad Michoacana de San Nicolás de Hidalgo</div>
+                        </div>
+                    </div>
+                    <div class="instructor-card d-flex align-items-beginig gap-3" data-bs-toggle="modal" data-bs-target="#pedroModal">
+                        <div><img src="img/PedroM.png" alt="Pedro Miramontes" class="avatar"></div>
+                        <div class="d-flex flex-column">
+                            <div class="professor">Pedro Eduardo</div>
+                            <div class="family-name">Miramontes Vidal</div>
+                            <div class="university">Instituto de Matemáticas, UNAM</div>
                         </div>
                     </div>
                 </div>
@@ -987,76 +995,116 @@
             <h1 class="h4 fw-bold">Programa de la Escuela de Invierno en Biología Matemática 2025</h1>
         </div>
 
+        <div class="text-center my-5 pt-5">
+            <h1 class="h4 fw-bold">Programa de la Escuela de Invierno en Biología Matemática 2025</h1>
+        </div>
+
         <!-- DESKTOP / TABLET GRID -->
         <div class="d-none d-md-block">
             <div class="schedule-grid">
 
                 <!-- Header row -->
                 <div></div>
-                <div class="cell time fw-bold">Lunes 1</div>
-                <div class="cell time fw-bold">Martes 2</div>
-                <div class="cell time fw-bold">Miércoles 3</div>
-                <div class="cell time fw-bold">Jueves 4</div>
-                <div class="cell time fw-bold">Viernes 5</div>
+                <div class="cell time fw-bold">Monday</div>
+                <div class="cell time fw-bold">Tuesday</div>
+                <div class="cell time fw-bold">Wednesday</div>
+                <div class="cell time fw-bold">Thursday</div>
+                <div class="cell time fw-bold">Friday</div>
 
-                <!-- Row 1: 9:00–10:30 -->
-                <div class="cell time">9:00–10:30</div>
+                <!-- 9:00–10:20 -->
+                <div class="cell time">9:00–10:20</div>
+                <div class="cell charla">Bienvenida</div>
+                <div class="cell c1">C1: Modelación</div>
+                <div class="cell c26">C2: Markov<br>C6: Booleano</div>
+                <div class="cell c35">C3: Inferencia<br>C5: Ecología</div>
+                <div class="cell c47">C4: Identificabilidad<br>C7: Clustering</div>
+
+                <!-- 10:20–10:30 -->
+                <div class="cell time">10:20–10:30</div>
                 <div class="cell c1">C1: Modelación</div>
                 <div class="cell c1">C1: Modelación</div>
-                <div class="cell c26">C2: Markov<br/>C6: Booleano</div>
-                <div class="cell c35">C3: Inferencia<br/>C5: Ecología</div>
-                <div class="cell c47">C4: Identificabilidad<br/>C7: Clustering</div>
+                <div class="cell c26">C2: Markov<br>C6: Booleano</div>
+                <div class="cell c35">C3: Inferencia<br>C5: Ecología</div>
+                <div class="cell c47">C4: Identificabilidad<br>C7: Clustering</div>
 
-                <!-- Row 2: 10:30–10:50 descanso -->
-                <div class="cell time">10:30–10:50</div>
-                <div class="cell break" style="grid-column: 2 / 7;">descanso</div>
+                <!-- 10:30–10:40 -->
+                <div class="cell time">10:30–10:40</div>
+                <div class="cell c1">C1: Modelación</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
 
-                <!-- Row 3: 10:50–12:20 -->
-                <div class="cell time">10:50–12:20</div>
+                <!-- 10:40–10:50 -->
+                <div class="cell time">10:40–10:50</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
+                <div class="cell charla">Platica 3</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
+
+                <!-- 10:50–11:30 -->
+                <div class="cell time">10:50–11:30</div>
                 <div class="cell c1">C1: Modelación</div>
                 <div class="cell c1">C1: Modelación</div>
-                <div class="cell neutral">Presentación de pósters</div>
-                <div class="cell c35">C3: Inferencia<br/>C5: Ecología</div>
-                <div class="cell c47">C4: Identificabilidad<br/>C7: Clustering</div>
+                <div class="cell charla">Platica 3</div>
+                <div class="cell c35">C3: Inferencia<br>C5: Ecología</div>
+                <div class="cell c47">C4: Identificabilidad<br>C7: Clustering</div>
 
-                <!-- Row 4: 12:20–12:30 descanso -->
+                <!-- 11:30–12:20 -->
+                <div class="cell time">11:30–12:20</div>
+                <div class="cell c1">C1: Modelación</div>
+                <div class="cell c1">C1: Modelación</div>
+                <div class="cell neutral">Pósters</div>
+                <div class="cell c35">C3: Inferencia<br>C5: Ecología</div>
+                <div class="cell c47">C4: Identificabilidad<br>C7: Clustering</div>
+
+                <!-- 12:20–12:30 -->
                 <div class="cell time">12:20–12:30</div>
-                <div class="cell break" style="grid-column: 2 / 7;">descanso</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
+                <div class="cell neutral">Pósters</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
 
-                <!-- Row 5: 12:30–13:30 -->
+                <!-- 12:30–13:30 -->
                 <div class="cell time">12:30–13:30</div>
-                <div class="cell charla">Plática 1</div>
-                <div class="cell charla">Plática 2</div>
+                <div class="cell charla">Platica 1</div>
+                <div class="cell charla">Platica 2</div>
                 <div class="cell neutral">Tarde libre</div>
                 <div class="cell charla">Posgrado CCM</div>
-                <div class="cell charla">Plática 3</div>
+                <div class="cell charla">Platica 4</div>
 
-                <!-- Row 6: 13:30–15:00 -->
+                <!-- 13:30–15:00 -->
                 <div class="cell time">13:30–15:00</div>
                 <div class="cell neutral">Comida</div>
                 <div class="cell neutral">Comida</div>
-                <div class="cell neutral">-</div>
+                <div class="cell neutral"></div>
                 <div class="cell neutral">Comida</div>
                 <div class="cell neutral">Comida</div>
 
-                <!-- Row 7: 15:00–16:30 -->
+                <!-- 15:00–16:30 -->
                 <div class="cell time">15:00–16:30</div>
-                <div class="cell c26">C2: Markov<br/>C6: Booleano</div>
-                <div class="cell c35">C3: Inferencia<br/>C5: Ecología</div>
-                <div class="cell neutral">—</div>
-                <div class="cell c47">C4: Identificabilidad<br/>C7: Clustering</div>
+                <div class="cell c26">C2: Markov<br>C6: Booleano</div>
+                <div class="cell c35">C3: Inferencia<br>C5: Ecología</div>
+                <div class="cell neutral"></div>
+                <div class="cell c47">C4: Identificabilidad<br>C7: Clustering</div>
                 <div class="cell neutral">Mesa redonda</div>
 
-                <!-- Row 8: 16:30–16:50 descanso -->
+                <!-- 16:30–16:50 -->
                 <div class="cell time">16:30–16:50</div>
-                <div class="cell break" style="grid-column: 2 / 7;">descanso</div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
+                <div class="cell neutral"></div>
+                <div class="cell break">descanso</div>
+                <div class="cell break">descanso</div>
 
-                <!-- Row 9: 16:50–18:20 -->
+                <!-- 16:50–18:20 -->
                 <div class="cell time">16:50–18:20</div>
-                <div class="cell c26">C2: Markov<br/>C6: Booleano</div>
-                <div class="cell c35">C3: Inferencia<br/>C5: Ecología</div>
-                <div class="cell neutral">—</div>
-                <div class="cell c47">C4: Identificabilidad<br/>C7: Clustering</div>
+                <div class="cell c26">C2: Markov<br>C6: Booleano</div>
+                <div class="cell c35">C3: Inferencia<br>C5: Ecología</div>
+                <div class="cell neutral"></div>
+                <div class="cell c47">C4: Identificabilidad<br>C7: Clustering</div>
                 <div class="cell neutral">Presentación de estudiantes</div>
             </div>
         </div>
@@ -1064,7 +1112,7 @@
         <!-- MOBILE (sm) – stacked view -->
         <div class="d-md-none">
             <div class="accordion" id="schedMobile">
-                <!-- Helper: small component to reuse -->
+
                 <!-- Monday -->
                 <div class="accordion-item bg-black text-light border-secondary">
                     <h2 class="accordion-header">
@@ -1075,12 +1123,35 @@
                     <div id="m1" class="accordion-collapse collapse" data-bs-parent="#schedMobile">
                         <div class="accordion-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-black text-light"><strong>9:00–10:30</strong> · <span class="badge text-dark" style="background:var(--c-blue)">C1</span> Modelación</li>
-                                <li class="list-group-item bg-black text-light"><strong>10:50–12:20</strong> · <span class="badge text-dark" style="background:var(--c-blue)">C1</span> Modelación</li>
-                                <li class="list-group-item bg-black text-light"><strong>12:30–13:30</strong> · <span class="badge text-dark" style="background:var(--c-yellow)">Plática 1</span></li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>9:00–10:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-yellow)">Bienvenida</span>
+                                </li>
+
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>10:20–10:40</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-blue)">C1</span> Modelación
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>10:40–10:50</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>10:50–12:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-blue)">C1</span> Modelación
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>12:20–12:30</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>12:30–13:30</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-yellow)">Platica 1</span>
+                                </li>
                                 <li class="list-group-item bg-black text-light"><strong>13:30–15:00</strong> · Comida</li>
-                                <li class="list-group-item bg-black text-light"><strong>15:00–16:30</strong> · <span class="badge text-dark" style="background:var(--c-pink)">C2/C6</span> Markov/Booleano</li>
-                                <li class="list-group-item bg-black text-light"><strong>16:50–18:20</strong> · <span class="badge text-dark" style="background:var(--c-pink)">C2/C6</span> Markov/Booleano</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>15:00–16:30</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-pink)">C2/C6</span> Markov/Booleano
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>16:30–16:50</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>16:50–18:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-pink)">C2/C6</span> Markov/Booleano
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1096,12 +1167,31 @@
                     <div id="m2" class="accordion-collapse collapse" data-bs-parent="#schedMobile">
                         <div class="accordion-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-black text-light"><strong>9:00–10:30</strong> · C1 Modelación</li>
-                                <li class="list-group-item bg-black text-light"><strong>10:50–12:20</strong> · C1 Modelación</li>
-                                <li class="list-group-item bg-black text-light"><strong>12:30–13:30</strong> · <span class="badge text-dark" style="background:var(--c-yellow)">Plática 2</span></li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>9:00–10:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-blue)">C1</span> Modelación
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>10:30–10:40</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>10:50–12:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-blue)">C1</span> Modelación
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>12:20–12:30</strong> · descanso</li>
+
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>12:30–13:30</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-yellow)">Platica 2</span>
+                                </li>
                                 <li class="list-group-item bg-black text-light"><strong>13:30–15:00</strong> · Comida</li>
-                                <li class="list-group-item bg-black text-light"><strong>15:00–16:30</strong> · <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología</li>
-                                <li class="list-group-item bg-black text-light"><strong>16:50–18:20</strong> · <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>15:00–16:30</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>16:30–16:50</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>16:50–18:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1117,9 +1207,17 @@
                     <div id="m3" class="accordion-collapse collapse" data-bs-parent="#schedMobile">
                         <div class="accordion-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-black text-light"><strong>9:00–10:30</strong> · <span class="badge text-dark" style="background:var(--c-pink)">C2/C6</span> Markov/Booleano</li>
-                                <li class="list-group-item bg-black text-light"><strong>10:50–12:20</strong> · Presentación de pósters</li>
-                                <li class="list-group-item bg-black text-light"><strong>13:30–15:00</strong> · Tarde libre</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>9:00–10:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-pink)">C2/C6</span> Markov/Booleano
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>10:30–10:40</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>10:40–11:30</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-yellow)">Platica 3</span>
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>11:30–12:30</strong> · Pósters</li>
+                                <li class="list-group-item bg-black text-light"><strong>12:30–18:20</strong> · Tarde libre</li>
                             </ul>
                         </div>
                     </div>
@@ -1135,11 +1233,30 @@
                     <div id="m4" class="accordion-collapse collapse" data-bs-parent="#schedMobile">
                         <div class="accordion-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-black text-light"><strong>9:00–10:30</strong> · <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología</li>
-                                <li class="list-group-item bg-black text-light"><strong>10:50–12:20</strong> · <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología</li>
-                                <li class="list-group-item bg-black text-light"><strong>12:30–13:30</strong> · <span class="badge text-dark" style="background:var(--c-yellow)">Posgrado CCM</span></li>
-                                <li class="list-group-item bg-black text-light"><strong>15:00–16:30</strong> · <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering</li>
-                                <li class="list-group-item bg-black text-light"><strong>16:50–18:20</strong> · <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>9:00–10:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>10:30–10:40</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>10:50–12:20</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-green)">C3/C5</span> Inferencia/Ecología
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>12:20–12:30</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>12:30–13:30</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-yellow)">Posgrado CCM</span>
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>13:30–15:00</strong> · Comida</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>15:00–16:30</strong> ·
+                                    <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>16:30–16:50</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>16:50–18:20</strong> ·
+                                    <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering
+                                </li>
                             </ul>
                         </div>
                     </div>
@@ -1155,11 +1272,23 @@
                     <div id="m5" class="accordion-collapse collapse" data-bs-parent="#schedMobile">
                         <div class="accordion-body">
                             <ul class="list-group list-group-flush">
-                                <li class="list-group-item bg-black text-light"><strong>9:00–10:30</strong> · <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering</li>
-                                <li class="list-group-item bg-black text-light"><strong>10:50–12:20</strong> · <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering</li>
-                                <li class="list-group-item bg-black text-light"><strong>12:30–13:30</strong> · <span class="badge text-dark" style="background:var(--c-yellow)">Plática 3</span></li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>9:00–10:20</strong> ·
+                                    <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>10:30–10:40</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>10:50–12:20</strong> ·
+                                    <span class="badge text-light" style="background:var(--c-purple)">C4/C7</span> Identificabilidad/Clustering
+                                </li>
+                                <li class="list-group-item bg-black text-light"><strong>12:20–12:30</strong> · descanso</li>
+                                <li class="list-group-item bg-black text-light">
+                                    <strong>12:30–13:30</strong> ·
+                                    <span class="badge text-dark" style="background:var(--c-yellow)">Platica 4</span>
+                                </li>
                                 <li class="list-group-item bg-black text-light"><strong>13:30–15:00</strong> · Comida</li>
                                 <li class="list-group-item bg-black text-light"><strong>15:00–16:30</strong> · Mesa redonda</li>
+                                <li class="list-group-item bg-black text-light"><strong>16:30–16:50</strong> · descanso</li>
                                 <li class="list-group-item bg-black text-light"><strong>16:50–18:20</strong> · Presentación de estudiantes</li>
                             </ul>
                         </div>
@@ -1167,7 +1296,6 @@
                 </div>
 
             </div>
-            <p class="mt-3 small text-secondary">(*) Los descansos: 10:30–10:50, 12:20–12:30 y 16:30–16:50.</p>
         </div>
     </div>
 
@@ -1250,9 +1378,7 @@
             <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-icti.png" alt="Logo Facultad Ciencias" height="48" width="90"></div>
 
         </div>
-        <div class="d-flex flex-column justify-content-center flex-md-row justify-content-md-around">
-            <div class="sponsor mb-5 d-flex justify-content-center"><img class="img-fluid" src="img/footer-secihti.png" alt="Logo SECIHTI" width="380px"></div>
-        </div>
+
         <hr class="white">
         <div class="copyright text-center">Universidad Nacional Autónoma de México, Centro de Ciencias Matemáticas, Campus Morelia, Michoacán. todos los derechos reservados 2025</div>
     </div>
